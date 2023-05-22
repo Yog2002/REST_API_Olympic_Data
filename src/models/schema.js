@@ -8,7 +8,8 @@ const olympicSchema = mongoose.Schema({
     name:{
         type:String,
         required:true,
-        trim:true
+        trim:true,
+        unique:true
     },
     dob:{
         type:Date,
